@@ -10,21 +10,13 @@ function handleModal() {
   }
   
   function closeModal() {
-    const button = document.querySelector("#closeModal");
+    const button = document.querySelector(".closeModal", "x");
     const modalContainer = document.querySelector("#modalContainer");
   
     button.addEventListener("click", () => {
       modalContainer.close();
     });
-  }
+}
   
-  function closeModalByX() {
-    const buttonX = document.querySelector("#xa");
-    const modalContainer = document.querySelector("#modalContainer");
-  
-    buttonX.addEventListener("click", () => {
-      modalContainer.close();
-    });
-  }
   
   handleModal();
