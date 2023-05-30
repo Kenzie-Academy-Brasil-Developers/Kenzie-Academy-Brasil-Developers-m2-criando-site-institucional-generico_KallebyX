@@ -56,3 +56,8 @@ header .highlight {
     text-align: center;
     color: var(--grey-5);
 }
+
+header .highlight:hover {
+    background-color: var(--brand-2);
+    color:  rgba(255, 255, 255, 1);
+}
