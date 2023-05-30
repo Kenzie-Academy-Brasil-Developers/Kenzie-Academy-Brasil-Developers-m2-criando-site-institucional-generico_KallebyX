@@ -18,4 +18,13 @@ function handleModal() {
     });
   }
   
+  function closeModalByX() {
+    const buttonX = document.querySelector("#xa");
+    const modalContainer = document.querySelector("#modalContainer");
+  
+    buttonX.addEventListener("click", () => {
+      modalContainer.close();
+    });
+  }
+  
   handleModal();
