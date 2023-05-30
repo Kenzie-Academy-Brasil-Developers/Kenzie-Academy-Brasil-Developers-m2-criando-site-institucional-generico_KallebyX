@@ -1,11 +1,8 @@
-  
-.section3 {
+ .section3 {
     display: flex;
-    justify-content: space-between;
-    padding-bottom: 0px;
-    margin-bottom: 0px;
-    position: static;
-    top: 800px;
+    justify-content: center;
+    margin-bottom: -300px;
+    background-color: var(--grey-2);
 }
   
 .div1 {
@@ -13,49 +10,37 @@
     flex-direction: column;
     align-items: flex-start;
     padding: 82px 236px;
-    gap: 33px;
-    width: 473px;
-    height: 271px;
+    width: 460px;
+    height: 240px;
+}
+
+.div1 span:hover {
+    background-color: var(--brand-2);
+    color:  rgba(255, 255, 255, 1);
 }
   
 .div1 h2 {
-    font-family: 'Inter';
-    font-weight: 600;
-    font-size: 40px;
-    line-height: 64px;
-    text-align: start;
     color: var(--grey-5);
 }
   
 .div1 p {
-    font-family: 'Inter';
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 27px;
     color: var(--grey-3);
 }
   
 .div1 span {
     top: 19.5px;
     left: 32px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 150%;
     text-align: center;
     color: var(--grey-5);
-    background-color: var(--brand-2);
+    background-color: var(--brand-1);
     padding: 20px;
 }
   
 .div2 {
-    position: static;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 82px 236px;
-    gap: 60px;
     width: 614px;
     height: 968px;
 }
@@ -69,17 +54,13 @@
   
 .div2 span p {
     position: relative;
-    font-family: 'Inter';
     color: var(--grey-3);
     top: 0;
 }
   
 .div2 span h3 {
-    font-family: 'Inter';
     text-align: center;
     color: var(--grey-5);
-    width: 329px;
-    height: 45px;
     margin: 0;
-    margin-bottom: 10px;
+    margin-bottom: -10px;
 }
