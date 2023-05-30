@@ -1,0 +1,38 @@
+.section2 {
+    position: static;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    background: var(--grey-1);
+}
+
+.section2 h2 {
+    width: 285px;
+    height: 45px;
+    margin-left: 0px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 140%;
+    color: #EDF2FF;
+    padding: 80px 236px; 
+    margin-right: 10px; 
+    display: flex; 
+    align-items: center;
+}
+
+.section2 p {
+    width: 611px;
+    height: 120px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: var(--grey-4);
+    display: flex;
+    align-items: center; 
+}

@@ -1,0 +1,76 @@
+.modalContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    background: var(--grey-1);
+    border: 1px solid #4C6EF5;
+}
+
+.modalContainer h2 {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 150%;
+    color: var(--grey-3);
+}
+
+.modalContainer p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--grey-4);
+}
+
+#closeModal {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 0px 32px;
+    gap: 10px;
+    width: 500px;
+    height: 50px;
+    background: var(--brand-1);
+    border: 1px solid var(--brand-1);
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    flex-wrap: nowrap;
+}
+
+form p {
+    width: 400px;
+    height: 50px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--grey-4);
+}
+
+form input[value="email"] {
+  width: 500px;
+  height: 50px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 160%;
+  text-align: start;
+  color: var(--grey-4);
+}
