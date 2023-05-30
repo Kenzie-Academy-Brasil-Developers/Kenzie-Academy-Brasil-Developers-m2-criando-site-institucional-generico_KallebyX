@@ -36,7 +36,7 @@ header p {
     color: var(--grey-4);
 }
   
-header .highlight {
+.highlight {
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
@@ -57,7 +57,7 @@ header .highlight {
     color: var(--grey-5);
 }
 
-header .highlight:hover {
+.highlight:hover {
     background-color: var(--brand-2);
     color:  rgba(255, 255, 255, 1);
 }
